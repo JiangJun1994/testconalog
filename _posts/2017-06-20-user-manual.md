@@ -114,10 +114,10 @@ conalogHost:conalogFrontPort
 如：'192.168.0.244:7527'  
 
 登录界面：（账号：admin 初始密码：admininitpass）
-![](/conalog-doc/styles/images/logIn.png)
+![](/testconalog/styles/images/logIn.png)
 
 登录成功：
-![](/conalog-doc/styles/images/homePage.png)
+![](/testconalog/styles/images/homePage.png)
 
 
  第三章 cert
@@ -129,40 +129,40 @@ cert功能：存储用于远程SSH登录的账号。Conalog可以通过ssh连接
 ---------------------
 
 1. 点击左上角添加按钮：
-![](/conalog-doc/styles/images/addCert.png)
+![](/testconalog/styles/images/addCert.png)
 2. 弹出添加框，填写信息：  
    填写规范：    
    Host: 192.168.0.244，（虚拟机IP地址）  
    Port：22，（端口号）  
    User：voyager，（虚拟机用户名）  
    Password：welcome1，（虚拟机用户名对应的密码）
-![](/conalog-doc/styles/images/addCertModal.png)
+![](/testconalog/styles/images/addCertModal.png)
 
 3. 添加成功：
-![](/conalog-doc/styles/images/addCertSuccess.png)
+![](/testconalog/styles/images/addCertSuccess.png)
 
 3.2 修改
 ---------------------
 
 1. 点击edit按钮：
-![](/conalog-doc/styles/images/editCert.png)
+![](/testconalog/styles/images/editCert.png)
 2. 弹出修改框，修改信息：
-![](/conalog-doc/styles/images/editCertModal.png)
+![](/testconalog/styles/images/editCertModal.png)
 3. 保存即点击确认，不保存即点击取消；
 
 3.3 删除
 ---------------------
 
 1. 点击delete按钮： 
-![](/conalog-doc/styles/images/deleteCert.png)
+![](/testconalog/styles/images/deleteCert.png)
 2. 弹出确定框，点击确认即删除，点击取消即取消删除：
-![](/conalog-doc/styles/images/deleteCertModal.png)
+![](/testconalog/styles/images/deleteCertModal.png)
 
 3.4 查看密码
 ---------------------
 
 1. 鼠标放在图标上，password即显示为明文密码，鼠标移开，密码即为隐藏密码；
-![](/conalog-doc/styles/images/checkPassword.png)
+![](/testconalog/styles/images/checkPassword.png)
 
 
 第四章 collector
@@ -191,7 +191,7 @@ Host: 虚拟机IP；
 Encoding: 根据电脑系统选择对应的编码；  
 Channel: redis/nanomsg;  
 Description: collector usage & source & description；
-![](/conalog-doc/styles/images/addActiveCollector.png)
+![](/testconalog/styles/images/addActiveCollector.png)
 2. passive collector：  
 填写规范：  
 Name: 无要求（**输出数据的redis通道名默认为 pc_name**);  
@@ -204,10 +204,10 @@ Host: 虚拟机IP；
 Encoding: 根据电脑系统选择对应的编码；  
 Channel: redis/nanomsg;  
 Description: collector usage&source&description；
-![](/conalog-doc/styles/images/addPassiveCollector.png)
+![](/testconalog/styles/images/addPassiveCollector.png)
 3. agent collector  
 &nbsp;3.1 点击添加按钮：
-![](/conalog-doc/styles/images/addAgentCollector.png)
+![](/testconalog/styles/images/addAgentCollector.png)
 &nbsp;3.2 弹出添加框，填写信息：  
 &nbsp;&nbsp;&nbsp;填写规范  
 &nbsp;&nbsp;&nbsp;Name: 无要求 （**输出数据的redis通道名默认为 agt_name**）；  
@@ -215,39 +215,39 @@ Description: collector usage&source&description；
 &nbsp;&nbsp;&nbsp;Encoding: 根据电脑系统选择对应的编码；  
 &nbsp;&nbsp;&nbsp;Channel: redis/nanomsg;  
 &nbsp;&nbsp;&nbsp;Description: collector usage & source & description；
-![](/conalog-doc/styles/images/addAgentCollectorContent.png)
+![](/testconalog/styles/images/addAgentCollectorContent.png)
 
   4.2 修改
 ---------------------
 
 1. active collector：  
    勾选要修改的项，再点击edit按钮，在页面上方即可出现对应的信息，修改之后保存点击save按钮，不保存点击clear按钮；
-![](/conalog-doc/styles/images/editActiveCollector.png)
-![](/conalog-doc/styles/images/editActiveCollectorContent.png)
+![](/testconalog/styles/images/editActiveCollector.png)
+![](/testconalog/styles/images/editActiveCollectorContent.png)
 2. passive collector：  
    勾选要修改的项，再点击edit按钮，在页面上方即可出现对应的信息，修改之后保存点击save按钮，不保存点击clear按钮；
-![](/conalog-doc/styles/images/editPassiveCollector.png)
-![](/conalog-doc/styles/images/editPassiveCollectorContent.png)
+![](/testconalog/styles/images/editPassiveCollector.png)
+![](/testconalog/styles/images/editPassiveCollectorContent.png)
 3. agent collector:  
    点击edit按钮，即会弹出修改框，修改之后保存点击确定按钮，不保存点击取消按钮；
-![](/conalog-doc/styles/images/editAgentCollector.png)
-![](/conalog-doc/styles/images/editAgentCollectorContent.png)
+![](/testconalog/styles/images/editAgentCollector.png)
+![](/testconalog/styles/images/editAgentCollectorContent.png)
 
   4.3 删除
 ---------------------
 
 1. active collector：  
    勾选要删除的项，再点击delete按钮，弹出确定框，删除点击确定，不删除点击取消；
-![](/conalog-doc/styles/images/editActiveCollector.png)
-![](/conalog-doc/styles/images/deleteActiveCollector.png)
+![](/testconalog/styles/images/editActiveCollector.png)
+![](/testconalog/styles/images/deleteActiveCollector.png)
 2. passive collector：  
    勾选要删除的项，再点击delete按钮，弹出确定框，删除点击确定，不删除点击取消；
-![](/conalog-doc/styles/images/editPassiveCollector.png)
-![](/conalog-doc/styles/images/deletePassiveCollector.png)
+![](/testconalog/styles/images/editPassiveCollector.png)
+![](/testconalog/styles/images/deletePassiveCollector.png)
 3. agent collector:  
    点击delete按钮，弹出确定框，删除点击确定，不删除点击取消；
-![](/conalog-doc/styles/images/deleteAgentCollector.png)
-![](/conalog-doc/styles/images/deleteAgentCollectorModal.png)
+![](/testconalog/styles/images/deleteAgentCollector.png)
+![](/testconalog/styles/images/deleteAgentCollectorModal.png)
 
 
 第五章 parser
@@ -259,7 +259,7 @@ parser的功能：parser通过调用脚本把文件中的文本数据转换成�
 ---------------------
 
 1. 点击左上角添加按钮：
-![](/conalog-doc/styles/images/addParser.png)
+![](/testconalog/styles/images/addParser.png)
 2. 弹出添加框，填写内容，所有选项均为必填：  
 填写规范：  
 Name：esb   (无要求)；  
@@ -270,26 +270,26 @@ OutputChannel：esb (输出数据通道名，**Conalog会自动给输出通道�
 InputType：RedisChannel   (RedisChannel/NanomsgQueue);  
 OutputType：RedisChannel   (RedisChannel/NanomsgQueue);  
 Remark：input:... output:{...}   (parser脚本作用描述，输入输出数据格式等);
-![](/conalog-doc/styles/images/addParserContent.png)
+![](/testconalog/styles/images/addParserContent.png)
 3. 添加成功：
-![](/conalog-doc/styles/images/addParserSuccess.png)
+![](/testconalog/styles/images/addParserSuccess.png)
 
   5.2 修改
 ---------------------
 
 1. 点击edit按钮：
-![](/conalog-doc/styles/images/editParser.png)
+![](/testconalog/styles/images/editParser.png)
 2. 弹出修改框，修改信息：
-![](/conalog-doc/styles/images/editParserModal.png)
+![](/testconalog/styles/images/editParserModal.png)
 3. 保存即点击确认，不保存即点击取消；
 
   5.3 删除
 ---------------------
 
 1. 点击delete按钮： 
-![](/conalog-doc/styles/images/deleteParser.png)
+![](/testconalog/styles/images/deleteParser.png)
 2. 弹出确定框，点击确认即删除，点击取消即取消删除：
-![](/conalog-doc/styles/images/deleteParserModal.png)
+![](/testconalog/styles/images/deleteParserModal.png)
 
   5.4 Parser脚本
 ---------------------
@@ -312,9 +312,9 @@ status作用：展示active collector，passive collector，agent collector以�
 点击operation下的切换按钮，即可来回开启和关闭；
 
 1. 关闭状态：
-![](/conalog-doc/styles/images/stop.png)
+![](/testconalog/styles/images/stop.png)
 2. 开启状态：
-![](/conalog-doc/styles/images/start.png)
+![](/testconalog/styles/images/start.png)
 
   6.1.2 查看
 1. 执行成功：  
@@ -323,12 +323,12 @@ Last Activity Time: 最后一次执行时间；
 Last Activity Message: 最后一次执行信息；  
 &nbsp; &nbsp; &nbsp;stdout: 执行过程中输出的正确数据；  
 &nbsp; &nbsp; &nbsp;stderr:执行过程中发现的错误；  
-![](/conalog-doc/styles/images/statusMessage.png)
+![](/testconalog/styles/images/statusMessage.png)
 2. 执行失败：  
 Exec Count: 0；  
 Last Activity Time: N/A；  
 Last Activity Message: N/A / Pending；  
-![](/conalog-doc/styles/images/start.png)
+![](/testconalog/styles/images/start.png)
 3. 查看redis通道数据:  
 打开终端；  
 输入 redis-cli；  
@@ -339,17 +339,17 @@ subscribe redis channel (active collector即为 ac_[collector name], passive col
 
  6.2.1 启动parser实例
 1. 点击start按钮：
-![](/conalog-doc/styles/images/startParserInstance.png)
+![](/testconalog/styles/images/startParserInstance.png)
 2. 弹出确认框,点击确定即生成实例，点击取消即取消生成：
-![](/conalog-doc/styles/images/startParserInstanceModal.png)
+![](/testconalog/styles/images/startParserInstanceModal.png)
 
 
  6.2.2 查看parser实例
 1. 查看实例总数：
-![](/conalog-doc/styles/images/instanceNum.png)
+![](/testconalog/styles/images/instanceNum.png)
 2. 查看实例内容，点击下拉按钮,即可显示所有实例：
-![](/conalog-doc/styles/images/showParserInstance.png)
-![](/conalog-doc/styles/images/parserInstanceDetail.png)
+![](/testconalog/styles/images/showParserInstance.png)
+![](/testconalog/styles/images/parserInstanceDetail.png)
 3. 查看redis通道数据:  
 打开终端；  
 输入 redis-cli；  
@@ -358,9 +358,9 @@ subscribe redis channel (parser outputChannel);
 
  6.2.3 删除parser实例
 1. 点击stop按钮；
-![](/conalog-doc/styles/images/deleteParserInstance.png)
+![](/testconalog/styles/images/deleteParserInstance.png)
 2. 弹出确认框,点击确认即删除，点击取消即取消删除：
-![](/conalog-doc/styles/images/stopParserInstanceModal.png)
+![](/testconalog/styles/images/stopParserInstanceModal.png)
 
 
 第七章 history
@@ -372,10 +372,10 @@ history作用：保存日志，默认数据保存时限为7天。
 ---------------------
 
 1. 根据EventID进行查询：
-![](/conalog-doc/styles/images/history.png)
+![](/testconalog/styles/images/history.png)
 2. 点击下拉按钮，查看具体内容：
-![](/conalog-doc/styles/images/showHistory.png)
-![](/conalog-doc/styles/images/historyContent.png)
+![](/testconalog/styles/images/showHistory.png)
+![](/testconalog/styles/images/historyContent.png)
 
 
 第八章 常用流程
